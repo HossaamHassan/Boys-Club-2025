@@ -15,6 +15,16 @@ header .nav-right .mobile-menu-btn span::after {
 .header-area .company-logo {
   width: 200px;
 }
+@media (max-width: 991px) {
+  .header-area .company-logo {
+    width: 150px;
+  }
+}
+@media (max-width: 767px) {
+  .header-area .company-logo {
+    width: 120px;
+  }
+}
 header .main-menu > ul > li a,
 header .main-menu > ul > li:hover > a,
 header .main-menu ul li .bi,
