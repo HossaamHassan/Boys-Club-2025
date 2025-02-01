@@ -1,0 +1,69 @@
+/* Start Navbar */
+.header-area,
+header.sticky {
+  background-color: #000;
+  height: 90px;
+}
+header .main-menu {
+  background-color: #000;
+}
+header .nav-right .mobile-menu-btn span,
+header .nav-right .mobile-menu-btn span::before,
+header .nav-right .mobile-menu-btn span::after {
+  background-color: #fff;
+}
+.header-area .company-logo {
+  width: 200px;
+}
+header .main-menu > ul > li a,
+header .main-menu > ul > li:hover > a,
+header .main-menu ul li .bi,
+header .mobile-menu-form .hotline .hotline-info span,
+header .mobile-menu-form .hotline .hotline-info h6 a,
+header .mobile-menu-form .hotline .email-info h6 a,
+header .mobile-menu-form .email .hotline-info h6 a,
+header .mobile-menu-form .email .email-info span,
+header .mobile-menu-form .email .email-info h6 a,
+header .main-menu > ul > li i.active {
+  color: #fff;
+}
+header .nav-right .save-btn a svg,
+header .nav-right .dropdown .modal-btn svg,
+header .nav-right .user-login .user-btn svg,
+header .mobile-menu-form .hotline .hotline-icon svg,
+header .mobile-menu-form .hotline .email-icon svg,
+header .mobile-menu-form .email .hotline-icon svg,
+header .mobile-menu-form .email .email-icon svg {
+  fill: #fff;
+}
+header .main-menu > ul > li > a {
+  padding: 34px 2px;
+}
+@media (max-width: 991px) {
+  header .main-menu > ul > li > a {
+    padding: 10px 0px;
+  }
+}
+header
+  .main-menu
+  > ul
+  > li.menu-item-has-children.for-dropdown
+  .drop-down::before {
+  top: 28px;
+}
+header .main-menu > ul > li > a::after {
+  border-bottom-color: #fff;
+}
+/* End Navbar */
+.thumbnail-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.thumbnail-buttons button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
